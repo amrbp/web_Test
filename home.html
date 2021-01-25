@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+      .bar-header {
+        height: 520px;
+        background-color: white;
+      }
+      .top-header {
+        margin-top: 30px;
+        text-align: center;
+      }
+      .text-hard {
+        width: 200px;
+        margin-left: 20%;
+        margin-top: 15px;
+      }
+      .text-p {
+        margin-top: 15px;
+      }
+      .button-header {
+        margin-top: 15px;
+      }
+      .body-header {
+        height: 530px;
+        background-color: #edf7fa;
+      }
+      .body-dev {
+        margin-top: 50px;
+        margin-left: 60px;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .img-position {
+          margin-left: 450px;
+          margin-top: 150px;
+        }
+        .text-hard {
+          margin-top: -200px;
+          width: 400px;
+        }
+        .text-p {
+          width: 500px;
+          margin-top: 15px;
+        }
+        .bar-header {
+          height: 500px;
+          background-color: white;
+        }
+        .top-header {
+          margin-top: 30px;
+          text-align: left;
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .nav-right {
+          margin-left: 85%;
+        }
+        .bar-header {
+          height: 300px;
+          background-color: white;
+        }
+        .text-hard {
+          margin-left: 0px;
+        }
+        .body-control {
+          margin: 20px;
+        }
+        .body-text-header {
+          margin-left: 220px;
+          margin-top: 20px;
+          position: relative;
+        }
+        .body-header {
+          height: 350px;
+          background-color: #edf7fa;
+        }
+        .body-dev {
+          margin-top: 50px;
+          margin-left: 200px;
+        }
+        .Foot-header {
+          margin-left: 220px;
+        }
+        .card_one {
+          margin-top: -200px;
+          margin-left: 220px;
+        }
+        .card_two {
+          margin-left: 220px;
+          width: 50%;
+          float: left;
+        }
+        .card_three {
+          margin-left: 220px;
+          width: 50%;
+        }
+        .foot{
+            background-color: white;
+            height: 600px;
+        }
+        .foot-center{
+            margin: 30px;
+            margin-left: 220px;
+        }
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="nav-right">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Works</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div style="margin-left: 8%" class="top-header">
+        <div class="bar-header">
+          <div class="text-center">
+            <div class="img-position">
+              <img
+                src="man.jpg"
+                class="rounded-circle"
+                width="200px"
+                height="200px"
+              />
+            </div>
+          </div>
+          <h1 class="text-hard">Hi, I am John, Creative Technologist</h1>
+          <p class="text-p">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button type="button" class="btn btn-danger">Download Resume</button>
+        </div>
+      </div>
+    </div>
+    <div class="body-header">
+      <div class="body-control">
+        <br />
+        <div class="body-dev">
+          <div class="row">
+            <div class="col">Recent posts</div>
+            <div class="col">View All</div>
+          </div>
+          <div class="row">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Making a design system from scratch
+                    </h5>
+                    <p class="card-text">12 Feb 2020 | Design, Pattern</p>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Making a design system from scratch
+                    </h5>
+                    <p class="card-text">12 Feb 2020 | Design, Pattern</p>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+      <div class="row" class="foot-center">
+        <div class="col">Featured works</div>
+      </div>
+      <div class="Foot-header">
+        <div class="card-body">
+          <img src="man.jpg" height="200px" width="200px" />
+          <h5 class="card_one">Designing Dashboards</h5>
+          <h6 class="card_two">2020</h6>
+          <p>Dashboard</p>
+          <p class="card_three">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+        <hr style="width: 80%; margin-top: 40px" />
+      </div>
+    </div>
+  </body>
+</html>
