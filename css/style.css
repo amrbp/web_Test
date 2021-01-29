@@ -1,0 +1,116 @@
+[class*="col-"] {
+    width: 100%;
+  }
+  .bar-header {
+    height: 520px;
+    background-color: white;
+  }
+  .top-header {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .text-hard {
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+  .text-p {
+    margin-top: 15px;
+  }
+  .button-header {
+    margin-top: 15px;
+  }
+  .body-header {
+    height: 530px;
+    background-color: #edf7fa;
+  }
+  .body-dev {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+  .foot-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .card_three {
+    width: 280px;
+    text-align: center;
+  }
+  .card_two {
+    float: left;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .img-position {
+      margin-left: 450px;
+      margin-top: 150px;
+    }
+    .text-hard {
+      margin-top: -200px;
+      width: 400px;
+    }
+    .text-p {
+      width: 500px;
+      margin-top: 15px;
+    }
+    .bar-header {
+      height: 500px;
+      background-color: white;
+    }
+    .top-header {
+      margin-top: 30px;
+      text-align: left;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .nav-right {
+      margin-left: 85%;
+    }
+    .bar-header {
+      height: 300px;
+      background-color: white;
+    }
+    .text-hard {
+      margin-left: 0px;
+    }
+    .body-control {
+      margin: 20px;
+    }
+    .body-text-header {
+      margin-left: 220px;
+      margin-top: 20px;
+      position: relative;
+    }
+    .body-header {
+      height: 350px;
+      background-color: #edf7fa;
+    }
+    .body-dev {
+      margin-top: 50px;
+      margin-left: 200px;
+    }
+    .Foot-header {
+      margin-left: 220px;
+    }
+    .card_one {
+      margin-top: -200px;
+      margin-left: 220px;
+    }
+    .card_two {
+      margin-left: 220px;
+      width: 50%;
+      float: left;
+    }
+    .card_three {
+      margin-left: 220px;
+      width: 50%;
+    }
+    .foot {
+      background-color: white;
+      height: 600px;
+    }
+    .foot-center {
+      margin-top: 40px;
+      margin-right: 770px;
+    }
+  }
